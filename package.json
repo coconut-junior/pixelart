@@ -1,0 +1,27 @@
+{
+  "name": "pixelart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coconut-junior/pixelart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coconut-junior/pixelart/issues"
+  },
+  "homepage": "https://github.com/coconut-junior/pixelart#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nedb": "^1.8.0",
+    "nodemin": "^1.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,34 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	height:100%;
+	background-color: black;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+.canvas {
+	height:80vh;
+	width:80vh;
+	background-color:gray;
+	display:grid;
+	grid-gap:1px;
+	grid-template-columns:repeat(64,1fr);
+	grid-template-rows:repeat(64,1fr);
+	
+	-webkit-user-select: none; /* Safari, Chrome */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE */
+    user-select: none; /* CSS3 */
+}
+
+.pixel {
+	
+	background-color:white;
+}
